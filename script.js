@@ -54,7 +54,7 @@ btnRoll.addEventListener("click", function () {
   if (playing) {
   //2. Üretilen zarın gösterimi
   diceEl.classList.remove("hidden");
-  diceEl.src = `/img/dice-${dice}.png`;
+  diceEl.src = `dice-${dice}.png`;
 
   //3. Zarda bir(1) gelip gelmemesinin kontrol edilmesi
   if (dice !== 1) {
